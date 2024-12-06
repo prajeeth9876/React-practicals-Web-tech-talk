@@ -6,7 +6,7 @@ function App() {
     alert("Demonstrating Event Handling in React");
   }
   return (
-    <div>
+    <div className="App">
       <button onClick={showAlert}>Click Me</button>
     </div>
   );
