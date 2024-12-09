@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  align-items: center;
+   justify-content: center;
+  /* gap: 20px; */
+  height: 100vh;
+  
+}
+
+.btn{
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+  border-color: rgb(134, 132, 132);
+  border-radius: 50%;
+  box-shadow: 5px 5px 12px grey;
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
+
