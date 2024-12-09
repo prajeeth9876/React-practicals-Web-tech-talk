@@ -2,12 +2,19 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  function showAlert() {
-    alert("Demonstrating Event Handling in React");
-  }
+  
+  let count = 0;
+
+  const increment = () => {
+    count += 1;
+    console.log(count);
+  };
+
   return (
     <div className="App">
-      <button onClick={showAlert}>Click Me</button>
+      <div style={{ fontSize: "25px", fontWeight: "bold", color: "magenta" }}>        {count}
+      </div>
+      <button onClick={increment}>Increment</button>
     </div>
   );
 }
